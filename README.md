@@ -73,7 +73,9 @@ dify-mcp/ ├── dify_agent_server.py ├── test_agent_dify.py ├── 
    ```bash
    pip install -r requirements.txt
 
-2. 在 Cursor 中配置 mcp.json：见 https://github.com/ismxk/Dify_SQLAgent.git 中的 mcp.json。
+2. 在 Cursor 中配置 mcp.json：重要！
+	- cursor 的 settings 中，点击 MCP -- 添加 mcp 服务，会自动弹出 mcp.json，进行编辑即可，通常是在 C:\Users\{你的用户名}\.cursor\mcp.json 路径中
+	- 配置代码见 mcp.json。
    
 3. 测试 Dify API 是否正常工作：
 
