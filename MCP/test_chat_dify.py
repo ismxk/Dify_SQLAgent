@@ -14,8 +14,8 @@ def test_dify_api():
     }
     
     payload = {
-        "inputs": "",  # 确保这里的内容符合API要求
-        "query": "美国加征关税对中国的影响",
+        "inputs": "",
+        "query": "xxx",
         "user": "test_user",
         "response_mode": "streaming"
     }
@@ -45,4 +45,4 @@ if __name__ == "__main__":
 
 
 # 使用curl调用agent的api：
-# C:\Users\maxk>curl -X POST "https://api.dify.ai/v1/chat-messages" -H "Authorization: Bearer app-mGVmL8qyi10giSPJhKayTAg9" -H "Content-Type: application/json" -d "{\"inputs\": \"\",\"query\": \"美国加征关税对中国的影响\",\"user\": \"test_user\",\"response_mode\": \"streaming\"}"
+# C:\Users\maxk>curl -X POST "https://api.dify.ai/v1/chat-messages" -H "Authorization: Bearer xxx" -H "Content-Type: application/json" -d "{\"inputs\": \"\",\"query\": \"xxx\",\"user\": \"test_user\",\"response_mode\": \"streaming\"}"
