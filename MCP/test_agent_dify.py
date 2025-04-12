@@ -28,4 +28,4 @@ def test_dify_api(prompt: str) -> str:
         print(f"错误输出: {e.stderr}")
 
 if __name__ == "__main__":
-    test_dify_api("中国近代史")
+    test_dify_api("xxx")
