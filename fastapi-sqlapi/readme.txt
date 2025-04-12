@@ -3,10 +3,10 @@ fastapi-sqlapi/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py
-│   ├── database.py
-│   └── .env
+│   └── database.py
 ├── requirements.txt
 └── client.py
+└── .env
 
 安装依赖：
 pip install -r requirements.txt
