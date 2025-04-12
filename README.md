@@ -33,7 +33,7 @@ The project aims to use the latest AI technology platform to build a dedicated A
 
 项目结构：
 
-fastapi-sqlapi/ ├── app/ │ ├── init.py │ ├── main.py │ ├── database.py │ └── .env ├── requirements.txt └── client.py
+fastapi-sqlapi/ ├── app/ │ ├── init.py │ ├── main.py │ └── database.py │ ├── .env ├── requirements.txt └── client.py
 
 ### MCP 部分
 
