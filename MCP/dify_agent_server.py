@@ -8,13 +8,13 @@ import json
 mcp = FastMCP("Dify_agent")
 
 # Dify API配置
-DIFY_API_KEY = "app-mGVmL8qyi10giSPJhKayTAg9"
+DIFY_API_KEY = "xxx"
 DIFY_API_URL = "https://api.dify.ai/v1/chat-messages"
 
 @mcp.tool()
 def query_dify_agent(prompt: str) -> str: 
     """
-    使用更强的agent，从标题生成报告
+    使用更强的agent，从自然语言生成sql查询结果
     """
     # 构造 curl 命令
     curl_command = [
