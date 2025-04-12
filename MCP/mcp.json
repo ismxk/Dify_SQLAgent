@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "math": {
+      "command": "mcp",
+      "args": [
+        "run",
+        "D:\\LLM学习\\MCP\\mcpmath.py"
+      ]
+    },
+    "simplemath": {
+      "command": "mcp",
+      "args": [
+        "run",
+        "D:\\LLM学习\\MCP\\simplemath.py"
+      ]
+    },
+    "dify_chat": {
+      "command": "mcp",
+      "args": [
+        "run",
+        "D:\\LLM学习\\MCP\\dify_chat_server.py"
+      ]
+    },
+    "dify_agent": {
+      "command": "mcp",
+      "args": [
+        "run",
+        "D:\\LLM学习\\MCP\\dify_agent_server.py"
+      ]
+    }
+  }
+}
