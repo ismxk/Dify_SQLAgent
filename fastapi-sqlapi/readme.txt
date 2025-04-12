@@ -5,7 +5,7 @@ fastapi-sqlapi/
 │   ├── main.py
 │   └── database.py
 ├── requirements.txt
-└── client.py
+├── client.py
 └── .env
 
 安装依赖：
