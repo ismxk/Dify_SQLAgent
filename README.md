@@ -33,7 +33,14 @@ The project aims to use the latest AI technology platform to build a dedicated A
 
 项目结构：
 
-fastapi-sqlapi/ ├── app/ │ ├── init.py │ ├── main.py │ └── database.py │ ├── .env ├── requirements.txt └── client.py
+fastapi-sqlapi/ 
+  ├── app/ │ 
+	├── init.py │ 
+ 	├── main.py │ 
+  	└── database.py │ 
+  ├── .env 
+  ├── requirements.txt 
+  └── client.py
 
 ### MCP 部分
 
@@ -41,7 +48,11 @@ fastapi-sqlapi/ ├── app/ │ ├── init.py │ ├── main.py │ �
 
 项目结构：
 
-dify-mcp/ ├── dify_agent_server.py ├── test_agent_dify.py ├── mcp.json └── requirements.txt
+dify-mcp/ 
+  ├── dify_agent_server.py 
+  ├── test_agent_dify.py 
+  ├── mcp.json 
+  └── requirements.txt
 
 ## 安装与部署
 
