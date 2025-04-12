@@ -7,13 +7,13 @@ import json
 mcp = FastMCP("Dify_chat")
 
 # Dify API配置
-DIFY_API_KEY = "app-zaQzeSJb334hVUjfmKLg1DIy"
+DIFY_API_KEY = "xxx"
 DIFY_API_URL = "https://api.dify.ai/v1/chat-messages"
 
 @mcp.tool()
 def query_dify_chat(prompt: str) -> str:
     """
-    使用聊天机器人，从标题生成报告
+    使用聊天机器人，从自然语言生成sql
     """
     headers = {
         "Authorization": f"Bearer {DIFY_API_KEY}",
